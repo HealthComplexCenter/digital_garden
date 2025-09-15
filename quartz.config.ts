@@ -16,14 +16,14 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "healthcomplex.dk",
+    baseUrl: "https://www.healthcomplex.dk/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
+        header: "Roboto",
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
